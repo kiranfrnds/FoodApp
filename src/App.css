@@ -36,3 +36,841 @@
     transform: rotate(360deg);
   }
 }
+
+.bg-container{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 85px;
+}
+
+@media only screen and (width: 800px) { 
+  .bg-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+}
+
+@media only screen and (max-width: 799px) {
+  .bg-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+}
+
+@media only screen and (max-width: 1021px)  {
+  .bg-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+}
+
+.bg-image {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.bottom-bg{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.food-logo{
+  width: 97px;
+  height: 106px;
+}
+
+@media only screen and (max-width: 600px) {
+  .food-logo{
+    width: 67px;
+    height: 76px;
+  }
+}
+
+.main-heading {
+  font-family: 'Bai Jamjuree';
+font-weight: 500;
+font-size: 35px;
+line-height: 44px;
+line-height: 100%;
+text-align: center;
+vertical-align: Top;
+fill: Solid;
+}
+@media only screen and (max-width: 600px){
+  .main-heading {
+    font-family: 'Bai Jamjuree';
+  font-weight: 500;
+  font-size: 24px;
+  margin-top: 20px;
+  text-align: center;
+  vertical-align: Top;
+  fill: Solid;
+  }
+}
+.login-items{
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-bottom: 1px solid rgb(201, 192, 192);
+  padding: 4px;
+  width: 350px;
+}
+
+.login-desc{
+  color: #A2A3A5;
+  font-family:'Bai Jamjuree' ;
+  font-size: 18px;
+  margin-top: 0px;
+}
+
+@media only screen and (max-width: 600px){
+  .login-items{
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-bottom: 1px solid rgb(201, 192, 192);
+    padding: 4px;
+    width: 350px;
+  }
+}
+
+.login {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.items {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.line {
+  border: 1px solid #E8E8E8;
+  height: 25px;
+  margin-right: 15px;
+  margin-left: 10px;
+}
+
+.input{
+  border: none;
+  outline: none;
+  background-color: transparent;
+  font-size: 16px;
+}
+.fold{
+  margin-left: 8px;
+  margin-right: 8px;
+}
+.num-logo{
+  margin-left: 6px;
+}
+
+.phone-icon {
+  color: rgb(209, 225, 240);
+}
+
+.enable{
+  offset: 2px, 2px;
+  background-color: #DF201F;
+  border-radius: 25px;
+  width: 280px;
+  height: 60px;
+  margin-top: 35px;
+  color: #fff;
+  font-family: 'Bai Jamjuree';
+  font-style: Bold;
+  font-size: 22px;
+  line-height: 28px;
+  line-height: 100%;
+  text-align: center;
+  vertical-align: top;
+  letter-spacing: 5%;
+  border: none;
+}
+.disable {
+  border: 1px solid #A2A3A5;
+  padding: 12px;
+  border-radius: 25px;
+  margin-top: 30px;
+  color: #A2A3A5;
+  font-family: 'Bai Jamjuree';
+  width: 280px;
+  height: 60px;
+  font-size: 20px;
+  line-height: 28px;
+  line-height: 100%;
+  text-align: center;
+  vertical-align: top;
+  letter-spacing: 5%;
+}
+
+@media only screen and (max-width: 600px){
+  .enable{
+    offset: 2px, 2px;
+    background-color: #DF201F;
+    border-radius: 25px;
+    width: 180px;
+    height: 40px;
+    margin-top: 20px;
+    color: #fff;
+    font-family: 'Bai Jamjuree';
+    font-style: 400;
+    font-size: 18px;
+    text-align: center;
+    vertical-align: top;
+    border: none;
+  }
+}
+
+@media only screen and (max-width: 600px){
+  .disable{
+    offset: 2px, 2px;
+    background: transparent;
+    border: 1px solid #A2A3A5;
+    padding: 12px;
+    color: #A2A3A5;
+    border-radius: 25px;
+    width: 180px;
+    height: 40px;
+    margin-top: 20px;
+    font-family: 'Bai Jamjuree';
+    font-style: 400;
+    font-size: 18px;
+    text-align: center;
+    vertical-align: top;
+  }
+}
+
+
+.order-icon{
+  width: 500px;
+  height: 400px;
+  margin-top: 25px;
+}
+
+@media only screen and (max-width: 600px) {
+  .order-icon{
+    width: 273px;
+    height: 170px;
+    margin-top: 35px;
+    background-size: cover;
+  }
+}
+
+
+@media only screen and (max-width: 768px) {
+  .order-icon{
+    width: 273px;
+    height: 170px;
+    margin-top: 35px;
+    background-size: cover;
+  }
+}
+
+.bottom-bg{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.verify-head{
+  font-family: 'Bai Jamjuree';
+  font-weight: 500;
+font-size: 35px;
+line-height: 44px;
+line-height: 100%;
+text-align: center;
+vertical-align: Top;
+fill: Solid;
+color: hsl(206, 14%, 10%);
+margin-top: 15px;
+}
+
+@media only screen and (max-width: 600px){
+  .verify-head{
+    font-family: 'Bai Jamjuree';
+    font-weight: 500;
+  font-size: 24px;
+  text-align: center;
+  vertical-align: Top;
+  fill: Solid;
+  color: #161A1D;
+  margin-top: 15px;
+  }
+}
+
+.otp-desc{
+  font-family: 'Bai Jamjuree';
+font-size: 22px;
+line-height: 28px;
+line-height: 100%;
+text-align: center;
+vertical-align: Top;
+fill: Solid;
+color: #A2A3A5;
+width: 408px;
+height: 28px;
+margin-top: 0px;
+}
+@media only screen and (max-width: 600px){
+  .otp-desc{
+  font-family: 'Bai Jamjuree';
+  font-size: 18px;
+  text-align: center;
+  vertical-align: Top;
+  fill: Solid;
+  color: #A2A3A5;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  }
+}
+.otp-field{
+  border: 1px solid #E8E8E8;
+  width: 80px;
+  height: 52px;
+  border-radius: 10px;
+  margin: 6px;
+  text-align: center;
+  color: #161A1D;
+  font-family: 'Montserrat Alternates';
+  font-size: 30px;
+  line-height: 36px;
+}
+@media only screen and (max-width: 600px){
+  .otp-field{
+    border: 1px solid #E8E8E8;
+    width: 25px;
+    height: 37px;
+    border-radius: 6px;
+    margin: 4px;
+    text-align: center;
+    color: #161A1D;
+    font-family: 'Montserrat Alternates';
+    font-size: 22px;
+    line-height: 28px;
+  line-height: 77%;
+  }
+}
+.sec{
+  font-family: 'Bai Jamjuree';
+  font-size: 22px;
+  line-height: 28px;
+  line-height: 100%;
+  text-align: center;
+  vertical-align: Top;
+  fill: Solid;
+  color: #DF201F;
+  width: 408px;
+  height: 28px;
+  margin-top: 0px;
+}
+
+@media only screen and (max-width: 600px){
+  .sec{
+    font-family: 'Bai Jamjuree';
+    font-size: 18px;
+    text-align: center;
+    vertical-align: Top;
+    fill: Solid;
+    color: #DF201F;
+    width: 300px;
+    height: 24px;
+    margin-top: 10px;
+  }
+}
+.tog{
+  display: flex;
+  align-items: center;
+  justify-content:space-between;
+  width: 150px;
+  margin-top: 0px;
+}
+
+@media only screen and (max-width: 600px) {
+  .tog{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 150px;
+    margin-top: 0px;
+  }
+}
+.resend{
+  font-family: 'Montserrat Alternates';
+  font-size: 18px;
+  text-align: center;
+  fill: Solid;
+  color: #161A1D;
+  margin-top: 0px;
+}
+
+.repay{
+  color: #fff;
+  background-color: #DF201F;
+  border-radius: 20px;
+  padding: 6px;
+  text-align: center;
+  margin-left: 15px;
+  margin-top: 0px;
+  margin-bottom: 20px;
+}
+
+.not{
+  background-color: #DF201F;
+  width: 267px;
+  height: 60px;
+  border-radius: 50px;
+  border: none;
+  font-family: 'Bai Jamjuree';
+  font-size: 22px;
+  text-align: center;
+  color:#fff;
+  margin-top: 0px;
+}
+
+.verify {
+  width: 267px;
+  height: 60px;
+  border-radius: 50px;
+  border: 1x solid #A2A3A5;
+  font-family: 'Bai Jamjuree';
+  font-size: 22px;
+  text-align: center;
+}
+@media only screen and (max-width: 768px) {
+  .verify {
+    width: 180px;
+    height: 50px;
+    border-radius: 45px;
+    border: 1x solid #A2A3A5;
+    font-family: 'Bai Jamjuree';
+    font-size: 22px;
+    text-align: center;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .not{
+    background-color: #DF201F;
+    width: 180px;
+    height: 50px;
+    border-radius: 45px;
+    border: none;
+    font-family: 'Bai Jamjuree';
+    font-size: 18px;
+    text-align: center;
+    vertical-align: Top;
+    color:#fff;
+    letter-spacing: 5%;
+  }
+}
+
+.logo-food{
+  width: 52px;
+  height: 57px;
+  margin-left: 6%;
+}
+
+.product-bar{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin-top: 25px;
+}
+
+@media only screen and (max-width: 768px) {
+  .product-bar{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-around;
+    margin-top: 25px;
+  }
+}
+
+.main-container{
+  overflow: hidden;
+}
+
+.product-heading{
+  color: #161A1D;
+  font-size: 26px;
+  font-weight: 600;
+  font-family: 'Bai Jamjuree';
+  line-height: 28px;
+  text-align: center;
+  vertical-align: Top;
+}
+
+.product-bars-btn{
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  background-color: #94CD00;
+  border-radius: 50px;
+  padding: 12px;
+  margin-left: 25px;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+.product-button {
+  background: transparent;
+  border: none;
+  color: #fff;
+  font-size: 16px;
+  font-family: 'Bai Jamjuree';
+  font-weight: 500;
+}
+
+
+
+.update-button {
+  background: #23f31c;
+  border: none;
+  color: #fff;
+  font-size: 16px;
+  font-family: 'Bai Jamjuree';
+  font-weight: 500;
+}
+@media only screen and (min-width: 768px)  {
+  .product-button {
+    background: transparent;
+    border: none;
+    color: #fff;
+    font-size: 16px;
+    font-family: 'Bai Jamjuree';
+    font-weight: 500;
+  }
+}
+.product-search {
+  border: 1px solid #E7E7E9;
+  border-radius: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  padding: 10px;
+}
+
+.input-search{
+  outline: none;
+  border: none;
+  font-size: 18px;
+  font-family: 'Bai Jamjuree';
+}
+
+.product-bars{
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+@media only screen and (max-width: 600px) {
+  .product-bars{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+}
+
+.add-icon{
+  color: #fff;
+}
+.pop {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}
+@media only screen and (max-width: 600px) {
+  .pop-bg{
+    display: flex;
+    flex-direction: column;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .pop-bg{
+    display: flex;
+    flex-direction: column;
+  }
+}
+.pop-bg{
+  display: flex;
+}
+.pop-bg-container{
+  display: flex;
+}
+
+.dialog{
+  border-top-right-radius: 15px;
+}
+.close{
+  display: flex;
+  justify-content: flex-end;
+  position: relative;
+  float: right;
+  right: -10px;
+  top: -10px;
+  cursor: pointer;
+  visibility: visible;
+}
+
+.close-icon {
+ background-color: #da0e29;
+ color: #fff;
+ border-radius: 15px;
+ opacity: 1;
+}
+
+.save-product{
+  background-color: #94CD00;
+  color: #fff;
+  padding: 12px;
+  margin: 10px;
+  font-size: 18px;
+  font-weight: 600;
+  font-family: 'Bai Jamjuree';
+  border: none;
+  border-radius: 12px;
+  width: 160px;
+}
+.url-input{
+  width: 100%;
+}
+.url-food{
+  width: 250px;
+  height: 180px;
+  margin-right: 25px;
+  margin-top: 15px;
+}
+
+.list-items-table{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 10px;
+}
+
+.image-logo{
+  width: 50px;
+  height: 50px;
+  margin-left: 0px;
+  border-radius: 25px;
+}
+
+.items-table{
+  display: flex;
+  align-items: center;
+}
+
+.table{
+  margin: 0px 20px;
+  width: 80%;
+  
+  font-family: 'Bai Jamjuree';
+  margin: auto;
+
+}
+
+.table-page{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: 50%;
+  margin-top: 3%;
+  
+}
+
+.responsive{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 80%;
+}
+
+.button-edit{
+  color: #94CD00;
+  font-size: 22px;
+  margin-right: 6px;
+  cursor: pointer;
+}
+
+.button-delete{
+  color: #da0e29;
+  font-size: 22px;
+  margin-left: 6px;
+  cursor: pointer;
+}
+
+.notify{
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.p{
+  background-color: red;
+  color: #fff;
+  margin-bottom: 0px;
+  margin-left: 95px;
+  border-radius: 10px;
+  font-size: 16px;
+  text-align: right;
+}
+
+.pagination{
+  display: flex;
+  justify-content: flex-end;
+  margin: 25px;
+}
+
+.text-field-icon{
+  margin-right: 30px;
+  margin-top: 6px;
+  width: 300px;
+  height: 100x;
+  border-radius: 12px;
+  margin: 20px;
+}
+
+
+@media only screen and (max-width: 600px){
+  .text-field-icon{
+    margin-top: 6px;
+    width: 150px;
+    height: 60x;
+    border-radius: 12px;
+    margin: 10px;
+  }
+  
+}
+
+
+.image-url-input{
+  border-radius: 6px;
+  border: 2px solid #E8E8E8;
+  margin-right:15px;
+  font-family: 'Montserrat Alternates'; 
+  width: 320px;
+  margin-right: 15px;
+  padding: 20px;
+  font-family: 'Montserrat Alternates'
+}
+
+@media only screen and (max-width: 600px) {
+  .image-url-input{
+    border-radius: 3px;
+  border: 1px solid #E8E8E8;
+  font-family: 'Montserrat Alternates'; 
+  width: 300px;
+  padding: 14px;
+  font-family: 'Montserrat Alternates';
+  margin-bottom: 15px;
+  }
+}
+
+.product-url-input{
+  border-radius: 6px;
+  border: 2px solid #E8E8E8;
+  margin-right:15px;
+  font-family: 'Montserrat Alternates'; 
+  width: 270px;
+  margin-right: 15px;
+  padding: 20px;
+  font-family: 'Montserrat Alternates'
+}
+@media only screen and (max-width: 600px) {
+  .product-url-input{
+    border-radius: 3px;
+  border: 1px solid #E8E8E8;
+  font-family: 'Montserrat Alternates'; 
+  width: 230px;
+  padding: 14px;
+  font-family: 'Montserrat Alternates';
+  margin-bottom: 15px;
+  }
+}
+
+
+
+
+.price-url-input{
+  border-radius: 6px;
+  border: 2px solid #E8E8E8;
+  font-family: 'Montserrat Alternates'; 
+  width: 180px;
+  padding: 20px;
+  font-family: 'Montserrat Alternates';
+}
+
+.ma {
+  margin-right: 15px;
+}
+
+@media only screen and (max-width: 600px) {
+  .price-url-input{
+    border-radius: 3px;
+    border: 1px solid #E8E8E8;
+    font-family: 'Montserrat Alternates'; 
+    width: 180px;
+    padding: 14px;
+    font-family: 'Montserrat Alternates';
+    margin-bottom: 15px;
+  }
+  
+}
+
+
+.unit-url-input{
+  border-radius: 6px;
+  border: 2px solid #E8E8E8;
+  font-family: 'Montserrat Alternates'; 
+  width: 105px;
+  padding: 20px;
+  font-family: 'Montserrat Alternates';
+}
+@media only screen and (max-width: 600px) {
+  .unit-url-input{
+    border-radius: 6px;
+    border: 1px solid #E8E8E8;
+    font-family: 'Montserrat Alternates'; 
+    width: 85px;
+    padding: 20px;
+    font-family: 'Montserrat Alternates';
+  }
+  
+}
+.mr {
+  margin-right: 10px;
+}
+
+.desc-url-input{
+  border-radius: 6px;
+  border: 2px solid #E8E8E8;
+  font-family: 'Montserrat Alternates'; 
+  width: 420px;
+  padding: 20px;
+  font-family: 'Montserrat Alternates';
+}
+
+.top-page{
+  margin-top: 25px;
+  margin-right: 85px;
+}
+
+.actions{
+  display: flex;
+  align-items: center;
+}
