@@ -4,6 +4,8 @@ import DeleteIcon from "@mui/icons-material/Delete";
 import EditIcon from "@mui/icons-material/Edit";
 import SearchIcon from "@mui/icons-material/Search";
 import AddIcon from "@mui/icons-material/Add";
+import Dialog from "@mui/material/Dialog";
+import DialogActions from "@mui/material/DialogActions";
 import {
   Avatar,
   Button,
@@ -12,6 +14,7 @@ import {
   Pagination,
   TextField,
   Modal,
+  DialogTitle,
 } from "@mui/material";
 import Navbar from "./Navbar";
 import Paper from "@mui/material/Paper";
@@ -26,8 +29,10 @@ import { toast, ToastContainer } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 
 const ProductList = () => {
+  const [deleteId, setDeleteId] = useState<any>("");
   const [list, setList] = useState<any>([]);
   const [datas, setDatas] = useState<any>([]);
+  const [openDailoue, setOpenDailoue] = React.useState(false);
   const [open, setOpen] = React.useState(false);
   const handleOpen = () => setOpen(true);
   const handleClose = () => setOpen(false);
@@ -52,7 +57,8 @@ const ProductList = () => {
   const getData = async () => {
     const data: any = sessionStorage.getItem("logindata");
     const jsonData: any = JSON.parse(data);
-    const token: any = jsonData.token;
+    const token: any = jsonData?.token;
+    console.log(token, "token");
 
     await fetch(
       "https://extended-retail-app.herokuapp.com/api/products/getMenuItems?userId=624a61bbd873b1d7b1bc78bc",
@@ -67,10 +73,18 @@ const ProductList = () => {
     )
       .then((resp) => resp.json())
       .then((respo) => {
-        console.log("result-come", respo);
         setList(respo.data);
         setDatas(respo.data);
       });
+  };
+
+  const handleOpenDialouge = (_id: any) => {
+    setDeleteId(_id);
+    setOpenDailoue(true);
+  };
+
+  const handleCloseDailouge = () => {
+    setOpenDailoue(false);
   };
 
   const handleChange = (e: any) => {
@@ -85,7 +99,6 @@ const ProductList = () => {
     discountPrice,
     price,
     weight,
-    unit,
     packingCharges,
     stock,
     description,
@@ -168,7 +181,7 @@ const ProductList = () => {
   };
 
   //Delete Item from List
-  const handleDeleteItem = async (_id: any) => {
+  const handleDeleteItem = async () => {
     const data: any = sessionStorage.getItem("logindata");
     console.log("logindata", data);
     const jsonData: any = JSON.parse(data);
@@ -176,7 +189,7 @@ const ProductList = () => {
     const userId = jsonData?.data?._id;
 
     fetch(
-      `https://extended-retail-app.herokuapp.com/api/products/deleteMenuItem?userId=${userId}&itemId=${_id}`,
+      `https://extended-retail-app.herokuapp.com/api/products/deleteMenuItem?userId=${userId}&itemId=${deleteId}`,
       {
         method: "DELETE",
         headers: {
@@ -191,6 +204,8 @@ const ProductList = () => {
         console.log(resp.data);
       })
       .catch((err: any) => console.log(err));
+
+    setOpenDailoue(false);
   };
 
   const handleEditItem = (item: any) => {
@@ -265,6 +280,7 @@ const ProductList = () => {
               placeholder="search..."
               className="input-search"
               onChange={handleSearch}
+              data-testid="search-input"
             />
             <SearchIcon className="search-icon" />
           </div>
@@ -629,7 +645,7 @@ const ProductList = () => {
                 </TableRow>
               </TableHead>
               <TableBody>
-                {list.map((eachItem: any, index: any) => {
+                {list?.map((eachItem: any, index: any) => {
                   return (
                     <TableRow
                       className="list-items-table"
@@ -699,12 +715,13 @@ const ProductList = () => {
                           <span className="button-edit task-button product-button">
                             <EditIcon
                               className="button-edit"
+                              data-testid="edit-product"
                               onClick={() => handleEditItem(eachItem)}
                             />
                           </span>
                           <span
                             className="button-delete task-button"
-                            onClick={() => handleDeleteItem(eachItem._id)}
+                            onClick={() => handleOpenDialouge(eachItem._id)}
                           >
                             <DeleteIcon className="button-delete" />
                           </span>
@@ -727,8 +744,36 @@ const ProductList = () => {
           </TableContainer>
         </Paper>
       </div>
-
-      <ToastContainer />
+      <div>
+        <Dialog
+          open={openDailoue}
+          onClose={handleCloseDailouge}
+          aria-labelledby="alert-dialog-title"
+          aria-describedby="alert-dialog-description"
+        >
+          <DialogTitle id="alert-dialog-title">
+            {"Are you sure to delete the item ? "}
+          </DialogTitle>
+          <DialogActions>
+            <Button
+              onClick={handleCloseDailouge}
+              variant="contained"
+              color="error"
+            >
+              No
+            </Button>
+            <Button
+              onClick={handleDeleteItem}
+              autoFocus
+              variant="contained"
+              color="success"
+            >
+              Yes
+            </Button>
+          </DialogActions>
+        </Dialog>
+      </div>
+      <ToastContainer position="top-center" />
     </div>
   );
 };

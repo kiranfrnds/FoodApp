@@ -1,5 +1,4 @@
 import ReplayIcon from "@mui/icons-material/Replay";
-import { log } from "console";
 import React, { useEffect, useState } from "react";
 import OtpInput from "react-otp-input";
 import { useNavigate, useParams } from "react-router-dom";
@@ -24,6 +23,7 @@ const Verification = () => {
   const handleChange = (event: any) => {
     setPassword(event);
     setOtp(event);
+    console.log(event);
   };
 
   const onClickHandle = async (event: React.MouseEvent<HTMLButtonElement>) => {
@@ -47,6 +47,7 @@ const Verification = () => {
       .then((respo) => {
         if (respo.status === 200) {
           sessionStorage.setItem("logindata", JSON.stringify(respo));
+          console.log(respo, "response");
           toast("Login Successful");
           navigate("/product");
         } else {
@@ -70,6 +71,7 @@ const Verification = () => {
         <p className="otp-desc">Enter the otp sent to +91 {number}</p>
         <div>
           <OtpInput
+            data-testid="otp-input"
             inputStyle={{
               width: "60px",
               height: "50px",
@@ -103,7 +105,7 @@ const Verification = () => {
           className="order-icon"
         />
       </div>
-      <ToastContainer />
+      <ToastContainer position="top-center" />
     </div>
   );
 };

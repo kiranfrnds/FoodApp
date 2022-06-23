@@ -48,7 +48,10 @@ const Navbar = () => {
     });
   };
   return (
-    <AppBar position="static" sx={{ backgroundColor: "inherit" }}>
+    <AppBar
+      position="static"
+      sx={{ backgroundColor: "inherit", padding: "10px 30px" }}
+    >
       <Container maxWidth="xl">
         <Toolbar disableGutters>
           <img

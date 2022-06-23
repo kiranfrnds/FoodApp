@@ -1,0 +1,132 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Verification snapshot 1`] = `
+<DocumentFragment>
+  <div
+    class="bg-container"
+  >
+    <div
+      class="bottom-bg"
+    >
+      <img
+        alt="food-app"
+        class="food-logo"
+        src="https://res.cloudinary.com/dq21uo3uq/image/upload/v1652702958/logo_1_seaocx.png"
+      />
+      <h4
+        class="verify-head"
+      >
+        Verification
+      </h4>
+      <p
+        class="otp-desc"
+      >
+        Enter the otp sent to +91 
+      </p>
+      <div>
+        <div
+          style="display: flex;"
+        >
+          <div
+            style="display: flex; align-items: center;"
+          >
+            <input
+              aria-label="Please enter verification code. Character 1"
+              autocomplete="off"
+              class=" "
+              data-testid="otp-input-0"
+              maxlength="1"
+              style="width: 60px; text-align: center; height: 50px; border-radius: 5px; border: 1px solid #ccc; margin: 0px 5px; font-size: 20px;"
+              type="text"
+              value=""
+            />
+          </div>
+          <div
+            style="display: flex; align-items: center;"
+          >
+            <input
+              aria-label="Character 2"
+              autocomplete="off"
+              class=""
+              data-testid="otp-input-1"
+              maxlength="1"
+              style="width: 60px; text-align: center; height: 50px; border-radius: 5px; border: 1px solid #ccc; margin: 0px 5px; font-size: 20px;"
+              type="text"
+              value=""
+            />
+          </div>
+          <div
+            style="display: flex; align-items: center;"
+          >
+            <input
+              aria-label="Character 3"
+              autocomplete="off"
+              class=""
+              data-testid="otp-input-2"
+              maxlength="1"
+              style="width: 60px; text-align: center; height: 50px; border-radius: 5px; border: 1px solid #ccc; margin: 0px 5px; font-size: 20px;"
+              type="text"
+              value=""
+            />
+          </div>
+          <div
+            style="display: flex; align-items: center;"
+          >
+            <input
+              aria-label="Character 4"
+              autocomplete="off"
+              class=""
+              data-testid="otp-input-3"
+              maxlength="1"
+              style="width: 60px; text-align: center; height: 50px; border-radius: 5px; border: 1px solid #ccc; margin: 0px 5px; font-size: 20px;"
+              type="text"
+              value=""
+            />
+          </div>
+        </div>
+      </div>
+      <p
+        class="sec"
+      >
+        sec 59
+      </p>
+      <div
+        class="tog"
+      >
+        <h4
+          class="resend"
+        >
+          Resend OTP
+        </h4>
+        <svg
+          aria-hidden="true"
+          class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium repay css-i4bv87-MuiSvgIcon-root"
+          data-testid="ReplayIcon"
+          focusable="false"
+          viewBox="0 0 24 24"
+        >
+          <path
+            d="M12 5V1L7 6l5 5V7c3.31 0 6 2.69 6 6s-2.69 6-6 6-6-2.69-6-6H4c0 4.42 3.58 8 8 8s8-3.58 8-8-3.58-8-8-8z"
+          />
+        </svg>
+      </div>
+      <button
+        class="verify"
+        disabled=""
+      >
+        Verification
+      </button>
+    </div>
+    <div>
+      <img
+        alt="otp"
+        class="order-icon"
+        src="https://res.cloudinary.com/dq21uo3uq/image/upload/v1652713695/Untitled-1_5_jthzoz.png"
+      />
+    </div>
+    <div
+      class="Toastify"
+    />
+  </div>
+</DocumentFragment>
+`;

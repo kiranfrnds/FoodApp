@@ -1,0 +1,402 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ProductList snapshot 1`] = `
+<DocumentFragment>
+  <div
+    class="main-container"
+  >
+    <header
+      class="MuiPaper-root MuiPaper-elevation MuiPaper-elevation4 MuiAppBar-root MuiAppBar-colorPrimary MuiAppBar-positionStatic css-qtnbig-MuiPaper-root-MuiAppBar-root"
+    >
+      <div
+        class="MuiContainer-root MuiContainer-maxWidthXl css-19r6kue-MuiContainer-root"
+      >
+        <div
+          class="MuiToolbar-root MuiToolbar-regular css-r6ewbb-MuiToolbar-root"
+        >
+          <img
+            alt="food-tem"
+            class="logo-food"
+            src="https://res.cloudinary.com/dq21uo3uq/image/upload/v1652702958/logo_1_seaocx.png"
+          />
+          <a
+            class="MuiTypography-root MuiTypography-h6 MuiTypography-noWrap css-fpfg7m-MuiTypography-root"
+            href="/product"
+          >
+            Food Delivery
+          </a>
+          <div
+            class="MuiBox-root css-1lvtzne"
+          >
+            <button
+              aria-controls="menu-appbar"
+              aria-haspopup="true"
+              aria-label="account of current user"
+              class="MuiButtonBase-root MuiIconButton-root MuiIconButton-colorInherit MuiIconButton-sizeLarge css-1pz7awu-MuiButtonBase-root-MuiIconButton-root"
+              tabindex="0"
+              type="button"
+            >
+              <svg
+                aria-hidden="true"
+                class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-17nxtc2-MuiSvgIcon-root"
+                data-testid="MenuIcon"
+                focusable="false"
+                viewBox="0 0 24 24"
+              >
+                <path
+                  d="M3 18h18v-2H3v2zm0-5h18v-2H3v2zm0-7v2h18V6H3z"
+                />
+              </svg>
+              <span
+                class="MuiTouchRipple-root css-8je8zh-MuiTouchRipple-root"
+              />
+            </button>
+          </div>
+          <div
+            class="MuiBox-root css-19jb5hz"
+          >
+            <button
+              class="MuiButton-root MuiButton-text MuiButton-textPrimary MuiButton-sizeMedium MuiButton-textSizeMedium MuiButtonBase-root  css-l02lvc-MuiButtonBase-root-MuiButton-root"
+              tabindex="0"
+              type="button"
+            >
+              Dashboard
+              <span
+                class="MuiTouchRipple-root css-8je8zh-MuiTouchRipple-root"
+              />
+            </button>
+            <button
+              class="MuiButton-root MuiButton-text MuiButton-textPrimary MuiButton-sizeMedium MuiButton-textSizeMedium MuiButtonBase-root  css-l02lvc-MuiButtonBase-root-MuiButton-root"
+              tabindex="0"
+              type="button"
+            >
+              Menus
+              <span
+                class="MuiTouchRipple-root css-8je8zh-MuiTouchRipple-root"
+              />
+            </button>
+            <button
+              class="MuiButton-root MuiButton-text MuiButton-textPrimary MuiButton-sizeMedium MuiButton-textSizeMedium MuiButtonBase-root  css-l02lvc-MuiButtonBase-root-MuiButton-root"
+              tabindex="0"
+              type="button"
+            >
+              Orders
+              <span
+                class="MuiTouchRipple-root css-8je8zh-MuiTouchRipple-root"
+              />
+            </button>
+            <button
+              class="MuiButton-root MuiButton-text MuiButton-textPrimary MuiButton-sizeMedium MuiButton-textSizeMedium MuiButtonBase-root  css-l02lvc-MuiButtonBase-root-MuiButton-root"
+              tabindex="0"
+              type="button"
+            >
+              Restaurant List
+              <span
+                class="MuiTouchRipple-root css-8je8zh-MuiTouchRipple-root"
+              />
+            </button>
+          </div>
+          <div
+            class="MuiBox-root css-2uchni"
+          >
+            <button
+              aria-label="Open settings"
+              class="MuiButtonBase-root MuiIconButton-root MuiIconButton-sizeMedium css-av538e-MuiButtonBase-root-MuiIconButton-root"
+              data-mui-internal-clone-element="true"
+              tabindex="0"
+              type="button"
+            >
+              <div
+                class="MuiAvatar-root MuiAvatar-circular css-1wlk0hk-MuiAvatar-root"
+              >
+                <img
+                  alt="Remy Sharp"
+                  class="MuiAvatar-img css-1pqm26d-MuiAvatar-img"
+                  src="https://res.cloudinary.com/dq21uo3uq/image/upload/v1627136029/IMG_2598_l228bd.jpg"
+                />
+              </div>
+              <span
+                class="MuiTouchRipple-root css-8je8zh-MuiTouchRipple-root"
+              />
+            </button>
+          </div>
+          <div
+            class="notify"
+          >
+            <span
+              class="BaseBadge-root MuiBadge-root css-1c32n2y-MuiBadge-root"
+            >
+              <svg
+                aria-hidden="true"
+                class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-fuoc8x-MuiSvgIcon-root"
+                data-testid="NotificationsNoneIcon"
+                focusable="false"
+                viewBox="0 0 24 24"
+              >
+                <path
+                  d="M12 22c1.1 0 2-.9 2-2h-4c0 1.1.9 2 2 2zm6-6v-5c0-3.07-1.63-5.64-4.5-6.32V4c0-.83-.67-1.5-1.5-1.5s-1.5.67-1.5 1.5v.68C7.64 5.36 6 7.92 6 11v5l-2 2v1h16v-1l-2-2zm-2 1H8v-6c0-2.48 1.51-4.5 4-4.5s4 2.02 4 4.5v6z"
+                />
+              </svg>
+              <span
+                class="BaseBadge-badge MuiBadge-badge MuiBadge-standard MuiBadge-anchorOriginTopRight MuiBadge-anchorOriginTopRightRectangular MuiBadge-overlapRectangular MuiBadge-colorSecondary css-jcn4dz-MuiBadge-badge"
+              >
+                99
+              </span>
+            </span>
+          </div>
+        </div>
+      </div>
+    </header>
+    <div
+      class="product-bar"
+    >
+      <h4
+        class="product-heading"
+      >
+        Product List
+      </h4>
+      <div
+        class="product-bars"
+      >
+        <div
+          class="product-search"
+        >
+          <input
+            class="input-search"
+            data-testid="search-input"
+            placeholder="search..."
+            type="text"
+          />
+          <svg
+            aria-hidden="true"
+            class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium search-icon css-i4bv87-MuiSvgIcon-root"
+            data-testid="SearchIcon"
+            focusable="false"
+            viewBox="0 0 24 24"
+          >
+            <path
+              d="M15.5 14h-.79l-.28-.27C15.41 12.59 16 11.11 16 9.5 16 5.91 13.09 3 9.5 3S3 5.91 3 9.5 5.91 16 9.5 16c1.61 0 3.09-.59 4.23-1.57l.27.28v.79l5 4.99L20.49 19l-4.99-5zm-6 0C7.01 14 5 11.99 5 9.5S7.01 5 9.5 5 14 7.01 14 9.5 11.99 14 9.5 14z"
+            />
+          </svg>
+        </div>
+        <div
+          class="product-bars-btn"
+        >
+          <button
+            class="MuiButton-root MuiButton-text MuiButton-textPrimary MuiButton-sizeMedium MuiButton-textSizeMedium MuiButtonBase-root product-button css-11gc9ze-MuiButtonBase-root-MuiButton-root"
+            tabindex="0"
+            type="button"
+          >
+            ADD NEW PRODUCT
+            <span
+              class="MuiTouchRipple-root css-8je8zh-MuiTouchRipple-root"
+            />
+          </button>
+          <svg
+            aria-hidden="true"
+            class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium add-icon css-i4bv87-MuiSvgIcon-root"
+            data-testid="AddIcon"
+            focusable="false"
+            viewBox="0 0 24 24"
+          >
+            <path
+              d="M19 13h-6v6h-2v-6H5v-2h6V5h2v6h6v2z"
+            />
+          </svg>
+        </div>
+      </div>
+    </div>
+    <div
+      class="table"
+    >
+      <div
+        class="responsive"
+      />
+      <div
+        class="MuiPaper-root MuiPaper-elevation MuiPaper-rounded MuiPaper-elevation1 css-1tz92kw-MuiPaper-root"
+      >
+        <div
+          class="MuiTableContainer-root css-41abqd-MuiTableContainer-root"
+        >
+          <table
+            aria-label="sticky table"
+            class="MuiTable-root MuiTable-stickyHeader css-xn82ks-MuiTable-root"
+          >
+            <thead
+              class="MuiTableHead-root css-15wwp11-MuiTableHead-root"
+            >
+              <tr
+                class="MuiTableRow-root MuiTableRow-head css-1q1u3t4-MuiTableRow-root"
+              >
+                <th
+                  class="MuiTableCell-root MuiTableCell-head MuiTableCell-stickyHeader MuiTableCell-sizeMedium css-4su19h-MuiTableCell-root"
+                  scope="col"
+                >
+                  Name
+                </th>
+                <th
+                  class="MuiTableCell-root MuiTableCell-head MuiTableCell-stickyHeader MuiTableCell-sizeMedium css-4su19h-MuiTableCell-root"
+                  scope="col"
+                >
+                  Units
+                </th>
+                <th
+                  class="MuiTableCell-root MuiTableCell-head MuiTableCell-stickyHeader MuiTableCell-sizeMedium css-4su19h-MuiTableCell-root"
+                  scope="col"
+                >
+                  Stock
+                </th>
+                <th
+                  class="MuiTableCell-root MuiTableCell-head MuiTableCell-stickyHeader MuiTableCell-sizeMedium css-4su19h-MuiTableCell-root"
+                  scope="col"
+                >
+                  Price
+                </th>
+                <th
+                  class="MuiTableCell-root MuiTableCell-head MuiTableCell-stickyHeader MuiTableCell-sizeMedium css-bj7lwh-MuiTableCell-root"
+                  scope="col"
+                >
+                  Discount Price
+                </th>
+                <th
+                  class="MuiTableCell-root MuiTableCell-head MuiTableCell-stickyHeader MuiTableCell-sizeMedium css-4su19h-MuiTableCell-root"
+                  scope="col"
+                >
+                  Actions
+                </th>
+              </tr>
+            </thead>
+            <tbody
+              class="MuiTableBody-root css-apqrd9-MuiTableBody-root"
+            />
+          </table>
+          <nav
+            aria-label="pagination navigation"
+            class="MuiPagination-root MuiPagination-outlined primary css-1oj2twp-MuiPagination-root"
+            style="float: right; margin-top: 10px; margin-right: 50px;"
+          >
+            <ul
+              class="MuiPagination-ul css-wjh20t-MuiPagination-ul"
+            >
+              <li>
+                <button
+                  aria-label="Go to previous page"
+                  class="MuiButtonBase-root Mui-disabled MuiPaginationItem-root MuiPaginationItem-sizeMedium MuiPaginationItem-outlined MuiPaginationItem-rounded MuiPaginationItem-outlinedSecondary Mui-disabled MuiPaginationItem-previousNext css-iqeo3-MuiButtonBase-root-MuiPaginationItem-root"
+                  disabled=""
+                  tabindex="-1"
+                  type="button"
+                >
+                  <svg
+                    aria-hidden="true"
+                    class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium MuiPaginationItem-icon css-g2z002-MuiSvgIcon-root-MuiPaginationItem-icon"
+                    data-testid="NavigateBeforeIcon"
+                    focusable="false"
+                    viewBox="0 0 24 24"
+                  >
+                    <path
+                      d="M15.41 7.41L14 6l-6 6 6 6 1.41-1.41L10.83 12z"
+                    />
+                  </svg>
+                </button>
+              </li>
+              <li>
+                <button
+                  aria-current="true"
+                  aria-label="page 1"
+                  class="MuiButtonBase-root MuiPaginationItem-root MuiPaginationItem-sizeMedium MuiPaginationItem-outlined MuiPaginationItem-rounded MuiPaginationItem-outlinedSecondary Mui-selected MuiPaginationItem-page css-iqeo3-MuiButtonBase-root-MuiPaginationItem-root"
+                  tabindex="0"
+                  type="button"
+                >
+                  1
+                  <span
+                    class="MuiTouchRipple-root css-8je8zh-MuiTouchRipple-root"
+                  />
+                </button>
+              </li>
+              <li>
+                <button
+                  aria-label="Go to page 2"
+                  class="MuiButtonBase-root MuiPaginationItem-root MuiPaginationItem-sizeMedium MuiPaginationItem-outlined MuiPaginationItem-rounded MuiPaginationItem-outlinedSecondary MuiPaginationItem-page css-iqeo3-MuiButtonBase-root-MuiPaginationItem-root"
+                  tabindex="0"
+                  type="button"
+                >
+                  2
+                  <span
+                    class="MuiTouchRipple-root css-8je8zh-MuiTouchRipple-root"
+                  />
+                </button>
+              </li>
+              <li>
+                <button
+                  aria-label="Go to page 3"
+                  class="MuiButtonBase-root MuiPaginationItem-root MuiPaginationItem-sizeMedium MuiPaginationItem-outlined MuiPaginationItem-rounded MuiPaginationItem-outlinedSecondary MuiPaginationItem-page css-iqeo3-MuiButtonBase-root-MuiPaginationItem-root"
+                  tabindex="0"
+                  type="button"
+                >
+                  3
+                  <span
+                    class="MuiTouchRipple-root css-8je8zh-MuiTouchRipple-root"
+                  />
+                </button>
+              </li>
+              <li>
+                <button
+                  aria-label="Go to page 4"
+                  class="MuiButtonBase-root MuiPaginationItem-root MuiPaginationItem-sizeMedium MuiPaginationItem-outlined MuiPaginationItem-rounded MuiPaginationItem-outlinedSecondary MuiPaginationItem-page css-iqeo3-MuiButtonBase-root-MuiPaginationItem-root"
+                  tabindex="0"
+                  type="button"
+                >
+                  4
+                  <span
+                    class="MuiTouchRipple-root css-8je8zh-MuiTouchRipple-root"
+                  />
+                </button>
+              </li>
+              <li>
+                <button
+                  aria-label="Go to page 5"
+                  class="MuiButtonBase-root MuiPaginationItem-root MuiPaginationItem-sizeMedium MuiPaginationItem-outlined MuiPaginationItem-rounded MuiPaginationItem-outlinedSecondary MuiPaginationItem-page css-iqeo3-MuiButtonBase-root-MuiPaginationItem-root"
+                  tabindex="0"
+                  type="button"
+                >
+                  5
+                  <span
+                    class="MuiTouchRipple-root css-8je8zh-MuiTouchRipple-root"
+                  />
+                </button>
+              </li>
+              <li>
+                <button
+                  aria-label="Go to next page"
+                  class="MuiButtonBase-root MuiPaginationItem-root MuiPaginationItem-sizeMedium MuiPaginationItem-outlined MuiPaginationItem-rounded MuiPaginationItem-outlinedSecondary MuiPaginationItem-previousNext css-iqeo3-MuiButtonBase-root-MuiPaginationItem-root"
+                  tabindex="0"
+                  type="button"
+                >
+                  <svg
+                    aria-hidden="true"
+                    class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium MuiPaginationItem-icon css-g2z002-MuiSvgIcon-root-MuiPaginationItem-icon"
+                    data-testid="NavigateNextIcon"
+                    focusable="false"
+                    viewBox="0 0 24 24"
+                  >
+                    <path
+                      d="M10 6L8.59 7.41 13.17 12l-4.58 4.59L10 18l6-6z"
+                    />
+                  </svg>
+                  <span
+                    class="MuiTouchRipple-root css-8je8zh-MuiTouchRipple-root"
+                  />
+                </button>
+              </li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+    </div>
+    <div />
+    <div
+      class="Toastify"
+    />
+  </div>
+</DocumentFragment>
+`;

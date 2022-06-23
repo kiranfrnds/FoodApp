@@ -1,0 +1,95 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`snapshot 1`] = `
+<DocumentFragment>
+  <div
+    class="bg-container"
+  >
+    <div
+      class="bottom-bg"
+    >
+      <img
+        alt="food-app"
+        class="food-logo"
+        src="https://res.cloudinary.com/dq21uo3uq/image/upload/v1652702958/logo_1_seaocx.png"
+      />
+      <h4
+        class="main-heading"
+      >
+        Welcome Back
+      </h4>
+      <h5
+        class="login-desc"
+      >
+        Login Account
+      </h5>
+      <div
+        class="login-items"
+      >
+        <div
+          class="login"
+        >
+          <img
+            alt="india"
+            class="india-log"
+            src="https://res.cloudinary.com/dq21uo3uq/image/upload/v1652702965/1200px-Flag_of_India_1_dfhmj5.png"
+          />
+          <p
+            class="num-logo"
+          >
+            +91 
+          </p>
+          <img
+            alt="fold"
+            class="fold"
+            src="https://res.cloudinary.com/dq21uo3uq/image/upload/v1652708990/Vector_5_vvb70x.png"
+          />
+          <hr
+            class="line"
+          />
+        </div>
+        <div
+          class="items"
+        >
+          <input
+            class="input"
+            placeholder="Mobile No"
+            type="number"
+            value=""
+          />
+          <svg
+            aria-hidden="true"
+            class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium phone-icon css-i4bv87-MuiSvgIcon-root"
+            data-testid="PhoneIcon"
+            focusable="false"
+            viewBox="0 0 24 24"
+          >
+            <path
+              d="M6.62 10.79c1.44 2.83 3.76 5.14 6.59 6.59l2.2-2.2c.27-.27.67-.36 1.02-.24 1.12.37 2.33.57 3.57.57.55 0 1 .45 1 1V20c0 .55-.45 1-1 1-9.39 0-17-7.61-17-17 0-.55.45-1 1-1h3.5c.55 0 1 .45 1 1 0 1.25.2 2.45.57 3.57.11.35.03.74-.25 1.02l-2.2 2.2z"
+            />
+          </svg>
+        </div>
+      </div>
+      <button
+        class="disable"
+        disabled=""
+      >
+        GET OTP
+      </button>
+    </div>
+    <div
+      class="bg-image"
+    >
+      <img
+        alt="order"
+        class="order-icon"
+        src="https://res.cloudinary.com/dq21uo3uq/image/upload/v1652709778/Online_Shoping_29-ai_1_ijnxly.png"
+      />
+    </div>
+    <div
+      class="Toastify"
+    />
+    <div />
+  </div>
+</DocumentFragment>
+`;
